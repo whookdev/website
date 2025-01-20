@@ -29,7 +29,7 @@ jobs:
           IMAGE_NAME=ghcr.io/${{ github.repository }}
           SHA=${{ github.sha }}
           # Build the Docker Image
-          docker build -t $IMAGE_NAME:$SHA -t $IMAGE_NAME:latest ./website
+          docker build -t $IMAGE_NAME:$SHA -t $IMAGE_NAME:latest .
           # Push the image
           docker push $IMAGE_NAME:$SHA
           docker push $IMAGE_NAME:latest
