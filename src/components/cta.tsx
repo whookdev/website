@@ -9,7 +9,7 @@ export default function CTA() {
             Ready to Transform Your CLI Experience?
           </span>
         </h2>
-        <div className="bg-[#0f0f0f] bg-opacity-70 backdrop-blur-sm border border-[#2a2a2a] rounded-lg p-6 mb-8 inline-block shadow-lg">
+        <div className="bg-[#0f0f0f] bg-opacity-70 backdrop-blur-sm border border-[#2a2a2a] rounded-lg p-6 mb-12 inline-block shadow-lg">
           <div className="flex items-center mb-4">
             <div className="flex space-x-2 mr-4">
               <div className="w-3 h-3 rounded-full bg-red-500"></div>
@@ -23,8 +23,8 @@ export default function CTA() {
           </pre>
         </div>
         <a
-          href="#"
-          className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-purple-100 hover:bg-purple-200 transition-colors"
+          href="https://github.com/whookdev/"
+          className="mt-8 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-purple-700 bg-purple-100 hover:bg-purple-200 transition-colors ml-8"
         >
           <Terminal className="mr-2 -ml-1 h-5 w-5" aria-hidden="true" />
           Start Using whook

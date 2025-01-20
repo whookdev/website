@@ -30,7 +30,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="https://github.com/whookdev"
+                href="https://github.com/whookdev/"
                 className="hover:text-purple-400 transition-colors"
               >
                 GitHub
